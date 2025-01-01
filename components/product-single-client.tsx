@@ -65,11 +65,11 @@ export default function ProductSingleClient({ lang, product }: { lang: string; p
         </div>
 
         {/* Comment */}
-        <div className="container mt-16 pt-8 border-t">
+        {/* <div className="container mt-16 pt-8 border-t">
           <div className='mx-auto max-w-5xl'>
             <Comment lang={lang} />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

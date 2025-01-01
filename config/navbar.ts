@@ -3,15 +3,15 @@ import { NavConfig } from "types";
 const enNavConfig: NavConfig = {
   mainNav: [
     {
-      title: "Products",
+      title: "Prompt",
       href: "/group/new",
       path: "/group/",
     },
-    {
-      title: "Apps",
-      href: "/apptype/new",
-      path: "/apptype/",
-    },
+    // {
+    //   title: "Apps",
+    //   href: "/apptype/new",
+    //   path: "/apptype/",
+    // },
     // {
     //   title: "Search",
     //   href: "https://link.indiehackers.site/saas101",
@@ -33,49 +33,54 @@ const enNavConfig: NavConfig = {
     //   href: "/blog",
     //   path: "/blog",
     // },
-    {
-      title: "IndieHub",
-      href: "https://indiehub.best?ref=opensource",
-      path: "https://indiehub.best?ref=opensource",
-      external: true,
-    },
-    {
-      title: "Mkdirs",
-      href: "https://mkdirs.com?ref=opensource",
-      path: "https://mkdirs.com?ref=opensource",
-      external: true,
-    },
-    {
-      title: "GitHub",
-      href: "https://github.com/javayhu/free-directory-boilerplate",
-      path: "https://github.com/javayhu/free-directory-boilerplate",
-      external: true,
-    },
+    // {
+    //   title: "IndieHub",
+    //   href: "https://indiehub.best?ref=opensource",
+    //   path: "https://indiehub.best?ref=opensource",
+    //   external: true,
+    // },
+    // {
+    //   title: "Mkdirs",
+    //   href: "https://mkdirs.com?ref=opensource",
+    //   path: "https://mkdirs.com?ref=opensource",
+    //   external: true,
+    // },
+    // {
+    //   title: "GitHub",
+    //   href: "https://github.com/javayhu/free-directory-boilerplate",
+    //   path: "https://github.com/javayhu/free-directory-boilerplate",
+    //   external: true,
+    // },
   ],
 }
 
 const zhNavConfig: NavConfig = {
   mainNav: [
     {
-      title: "工具",
+      title: "提示词",
       href: "/group/new",
       path: "/group/",
     },
-    {
-      title: "应用",
-      href: "/apptype/new",
-      path: "/apptype/",
-    },
-    {
-      title: "搜索",
-      href: "https://link.indiehackers.site/saas101",
-      path: "https://link.indiehackers.site/saas101",
-      external: true,
-    },
+    // {
+    //   title: "应用",
+    //   href: "/apptype/new",
+    //   path: "/apptype/",
+    // },
+    // {
+    //   title: "搜索",
+    //   href: "https://link.indiehackers.site/saas101",
+    //   path: "https://link.indiehackers.site/saas101",
+    //   external: true,
+    // },
     // {
     //   title: "教程",
     //   href: "/guides",
     //   path: "/guides",
+    // },
+    // {
+    //   title: "博客",
+    //   href: "/blog",
+    //   path: "/blog",
     // },
     {
       title: "关于",
@@ -83,26 +88,21 @@ const zhNavConfig: NavConfig = {
       path: "/about-zh",
     },
     // {
-    //   title: "博客",
-    //   href: "/blog",
-    //   path: "/blog",
+    //   title: "IndieHub",
+    //   href: "https://indiehub.best",
+    //   path: "https://indiehub.best",
+    //   external: true,
     // },
-    {
-      title: "IndieHub",
-      href: "https://indiehub.best",
-      path: "https://indiehub.best",
-      external: true,
-    },
-    {
-      title: "Mkdirs",
-      href: "https://mkdirs.com",
-      path: "https://mkdirs.com",
-      external: true,
-    },
+    // {
+    //   title: "Mkdirs",
+    //   href: "https://mkdirs.com",
+    //   path: "https://mkdirs.com",
+    //   external: true,
+    // },
   ],
 }
 
-export const AllNavConfigs:{[key: string]: NavConfig} = {
+export const AllNavConfigs: { [key: string]: NavConfig } = {
   en: enNavConfig,
   zh: zhNavConfig,
 }

@@ -43,7 +43,7 @@ export default middleware((request: NextRequest & { auth: Session | null }): Res
     [
       '/og.png',
       '/logo.png',
-      '/favicon.ico',
+      '/favicon.svg',
       '/favicon-16x16.png',
       '/favicon-32x32.png',
       '/apple-touch-icon.png',
@@ -195,6 +195,6 @@ export default middleware((request: NextRequest & { auth: Session | null }): Res
 // You can however define only private routes here, but the former gives you more control and is strongly advisable.
 export const config = {
   // Matcher ignoring `/_next/` and `/api/`
-  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)", "/"],
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico|favicon.svg).*)", "/"],
   // matcher: ["/((?!.+\\.[\\w]+$|_next|api).*)", "/"],
 };

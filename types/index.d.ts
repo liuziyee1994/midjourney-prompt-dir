@@ -43,7 +43,7 @@ export type SiteConfig = {
   links: {
     twitter: string;
     github: string;
-    coffee: string;
+    coffee?: string;
   };
   creator: string;
   subtitle: string;

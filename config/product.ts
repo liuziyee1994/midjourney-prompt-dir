@@ -1,11 +1,11 @@
 import { ProductConfig } from "types";
 
 const enConfig: ProductConfig = {
-    title: 'Products',
-    subtitle: 'Explore the best products to help you ship next application faster and better',
+    title: 'Prompt',
+    subtitle: 'Collect high-quality Midjourney prompt, Make you create image faster and better',
     submitButton: 'Submit Product',
     details: 'Details',
-    introduction: 'Introduction',
+    introduction: 'Prompt',
     github: 'Github',
     source: 'Source',
     price: 'Price',
@@ -17,11 +17,11 @@ const enConfig: ProductConfig = {
 }
 
 const zhConfig: ProductConfig = {
-    title: '工具',
-    subtitle: '发掘最优秀的工具，助力你快速发布你的下一个应用',
+    title: '提示词',
+    subtitle: '收录高质量Midjourney提示词，助力更快更好地生成图片',
     submitButton: '推荐工具',
     details: '详情',
-    introduction: '简介',
+    introduction: '提示词',
     github: '代码',
     source: '来源',
     price: '价格',

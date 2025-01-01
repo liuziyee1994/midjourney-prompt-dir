@@ -53,9 +53,10 @@ export function NavBar({
               size="sm"
               rounded="full"
               onClick={signInModal.onOpen}
+              disabled
             >
               <span>
-                {authConfig.signin}
+                {authConfig.signin} coming soon
               </span>
               <Icons.arrowRight className="size-4" />
             </Button>

@@ -28,16 +28,7 @@ export function SiteFooterInfo({ lang }: SiteFooterInfoProps) {
           {siteConfig.subtitle}
         </p>
 
-        <div className="flex items-center gap-1">
-          {/* <Button variant="ghost" size="sm" className="size-8 px-0">
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icons.jike className="size-5" />
-            </Link>
-          </Button> */}
+        {/* <div className="flex items-center gap-1">
           <Button variant="ghost" size="sm" className="size-8 px-0">
             <Link
               href={siteConfig.links.twitter}
@@ -65,37 +56,7 @@ export function SiteFooterInfo({ lang }: SiteFooterInfoProps) {
               <Icons.coffee className="size-5" />
             </Link>
           </Button>
-        </div>
-
-        <div className="mt-4 inline-block">
-          <a href="https://www.uneed.best/tool/indie-hackers"
-            target="_blank"
-          >
-            <Image 
-              src="https://www.uneed.best/POTD1.png"
-              alt="Uneed POTD1 Badge"
-              className="max-w-[250px]"
-              width={639}
-              height={171}
-            />
-          </a>
-        </div>
-
-        <br/>
-
-        <div className="mt-4 inline-block">
-          <a href="https://devhunt.org/tool/indie-hackers"
-            target="_blank"
-          >
-            <Image 
-              src="/images/devhunt-1st.png"
-              alt="DevHunt 1st Tool of the Week Badge"
-              className="max-w-[250px]"
-              width={988}
-              height={240}
-            />
-          </a>
-        </div>
+        </div> */}
       </div>
 
     </section>

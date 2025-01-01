@@ -47,11 +47,11 @@ export default function AppSingleClient({ lang, app }: { lang: string; app: AppQ
         </div>
 
         {/* Comment */}
-        <div className="container mt-32 pt-8 border-t">
+        {/* <div className="container mt-32 pt-8 border-t">
           <div className='mx-auto max-w-5xl'>
             <Comment lang={lang} />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

@@ -66,7 +66,7 @@ export async function generateMetadata({
       creator: `@${siteConfig.creator}`,
     },
     icons: {
-      icon: "/favicon.ico",
+      icon: "/favicon.png",
       shortcut: "/favicon-32x32.png",
       apple: "/apple-touch-icon.png",
     },

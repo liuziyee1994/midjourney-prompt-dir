@@ -36,9 +36,9 @@ export default async function ProductListLayout({ params, children }: ProductLis
                 <FeaturePageHeader className="container"
                     heading={productConfig.title}
                     text={productConfig.subtitle}>
-                    <ShareProductButton lang={lang}>
+                    {/* <ShareProductButton lang={lang}>
                         <span>{productConfig.submitButton}</span>
-                    </ShareProductButton>
+                    </ShareProductButton> */}
                 </FeaturePageHeader>
             </div>
 

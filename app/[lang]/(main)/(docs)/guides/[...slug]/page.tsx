@@ -178,11 +178,11 @@ export default async function GuidePage({ params }: GuidePageProps) {
       </main>
 
       {/* Comment */}
-      <div className="container w-full mt-16 pt-8 border-t">
+      {/* <div className="container w-full mt-16 pt-8 border-t">
         <div className='mx-auto max-w-5xl'>
           <Comment lang={lang} />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

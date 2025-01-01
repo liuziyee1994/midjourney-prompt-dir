@@ -24,9 +24,9 @@ export default async function AppListLayout({ params, children }: AppListLayoutP
                 <FeaturePageHeader className="container"
                     heading={applicationConfig.title}
                     text={applicationConfig.subtitle}>
-                    <SubmitApplicationButton lang={lang}>
+                    {/* <SubmitApplicationButton lang={lang}>
                         <span>{applicationConfig.submitButton}</span>
-                    </SubmitApplicationButton>
+                    </SubmitApplicationButton> */}
                 </FeaturePageHeader>
             </div>
 

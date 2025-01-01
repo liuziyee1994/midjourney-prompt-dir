@@ -16,7 +16,7 @@ const zhAuthConfig: AuthConfig = {
     logout: '退出',
 }
 
-export const AllAuthConfigs:{[key: string]: AuthConfig} = {
+export const AllAuthConfigs: { [key: string]: AuthConfig } = {
     en: enAuthConfig,
     zh: zhAuthConfig,
 }
