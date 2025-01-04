@@ -4,8 +4,8 @@ import { SiteConfig } from "types";
 const site_url = env.NEXT_PUBLIC_APP_URL;
 
 export const enSiteConfig: SiteConfig = {
-  name: "Midjourney Prompt Directory",
-  title: "Midjourney Prompt Directory",
+  name: "Midjourney Prompt Library",
+  title: "Midjourney Prompt Library",
   description: "",
   url: site_url,
   ogImage: `${site_url}/og.png`,

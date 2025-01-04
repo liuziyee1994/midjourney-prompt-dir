@@ -24,6 +24,12 @@ export const urlForImageWithSize = (source: any, width: number, height: number) 
     .url() as string;
 }
 
+export const urlForOriginImage = (source: any) => {
+  return urlForImage(source)
+    ?.fit("fillmax")
+    .url() as string;
+}
+
 export function resolveOpenGraphImage(image: any, width = 1200, height = 627) {
   if (!image) return;
   const url = urlForImage(image)?.width(1200).height(627).fit("crop").url();

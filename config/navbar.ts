@@ -24,6 +24,12 @@ const enNavConfig: NavConfig = {
     //   path: "/guides",
     // },
     {
+      title: "Prompt Lesson",
+      href: "https://learningprompt.wiki/docs/midjourney-learning-path",
+      path: "https://learningprompt.wiki/docs/midjourney-learning-path",
+      external: true,
+    },
+    {
       title: "About",
       href: "/about",
       path: "/about",
@@ -82,6 +88,12 @@ const zhNavConfig: NavConfig = {
     //   href: "/blog",
     //   path: "/blog",
     // },
+    {
+      title: "提示词教程",
+      href: "https://learningprompt.wiki/zh-Hans/docs/midjourney-learning-path",
+      path: "https://learningprompt.wiki/zh-Hans/docs/midjourney-learning-path",
+      external: true,
+    },
     {
       title: "关于",
       href: "/about-zh",
